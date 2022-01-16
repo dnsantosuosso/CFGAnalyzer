@@ -1,0 +1,15 @@
+def method(x, n):
+    z = abs(n)
+    r = 1.0
+    while z > 1
+        if z % 2 == 0:
+            x = x * x
+            z = z /2
+        else:
+            r = r * x
+            x = x * x
+            z = (z-1)/2
+    r = r * x
+    if n < 0:
+        r = 1.0/r
+    return r
